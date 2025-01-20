@@ -15,21 +15,35 @@ width: 90%;
 margin: 0 auto;
 }
 section{
-    border: 2px solid #3601B3;
     width: 100%;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
+}
+h2{
+    margin-bottom: 30px;
 }
 .borderToggle{
     border: 2px solid red;
 }
+.stickers{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.sticker__content{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
 input[type=number]{
     padding: 10px;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 select{
     padding: 10px;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 button{
     padding: 10px 30px;
